@@ -2,31 +2,89 @@
  <html lang="en">
  <head>
     <meta charset="UTF-8">
-    <title>Giovani N.L Resume</title>
+    <title>Resume - Giovani N.L</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
  </head>
  <body>
-    <h1>Giovani Nunez Lopez</h1>
-    <p>Harrisonburg, VA, 22807 | <a href="mailto:nuezlogi@dukes.jmu.edu">nuezlogi@dukes.jmu.edu</a></p>
-    <a href="assets/resume.pdf" download="Resume.pdf">
-        <!-- add img of for download button -->
-        <img src="#" alt="download resume">
-    </a>
+    <header>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+    </header>
 
-    <div>
-        <h3>Education</h3>
+    <div class="container">
+        <h1 class="text-center">Giovani Nunez Lopez</h1>
+        <p class="text-center">Harrisonburg, VA, 22807 | <a href="mailto:nuezlogi@dukes.jmu.edu">nuezlogi@dukes.jmu.edu</a></p>
+
+        <a href="assets/resume.pdf" class="btn btn-primary" download>Download PDF Resume</a>
+
+        <div class="card-body">
+            <h3>Education</h3>
+            <p><strong>James Madison University</strong>, Harrisonburg, VA | May 2027</p>
+            <p class="indented">Bachelor of Science in Computer Science</p>
+            <p class="indented">Cumulative GPA: 3.155</p>
+            <p><strong>Mountain View High School</strong>, Quicksburg, VA | May 2023</p>
+            <p class="indented">General High School Diploma</p>
+            <p class="indented">Cumulative GPA: 3.5</p>
+
+        </div>
+
+        <div class="card-body">
+            <h3>Skills</h3>
+            <p><strong>Programming Languages</strong></p>
+            <ul>
+                <li><strong>C</strong> | CS261 Computer Systems 1</li>
+                <li><strong>HTML &amp; Javascript</strong> | CS343 Web Development</li>
+                <li><strong>Java</strong> | CS159 Advanced Programming</li>
+                <li><strong>Python</strong> | CS149 Introduction to Programming</li>
+            </ul>
+        </div>
+
+        <div class="card-body">
+            <h3>Work Experience</h3>
+            <p><strong><em>Cargill</em></strong>, Timberville, VA | 2024</p>
+            <p><strong>General Production</strong></p>
+            <ul>
+                <li>Operating a line along other workers</li>
+                <li>Ensuring food safety and quality</li>
+                <li>Addressing safety concerns and line failures</li>
+            </ul><br>
+            <p><strong><em>Holtzman Oil Corp.</em></strong> Mount Jackson, VA | 2022-2023</p>
+            <p><strong>Summer Helper</strong></p>
+            <ul>
+                <li>Clean Gas Pumps, Paint Canopy Poles, Bumper Posts</li>
+                <li>Operate Bucket Truck</li>
+                <li>Miscellaneous Errands: Delivering &amp; Picking Up Work Trucks</li>
+                <li>Drive long distances to Gas Stations across VA, WV &amp; MD</li>
+            </ul>
+        </div>
+
+        <div class="card-body">
+            <h3>Volunteer Experience</h3>
+            <p><strong>Edith J. Carrier Arboretum</strong>, Harrisonburg, VA | September 2024 - Present</p>
+            <ul>
+                <li>Garden Care</li>
+                <li>Helping Set Up for Events</li>
+                <li>Cleaning Area</li>
+            </ul><br>
+
+            <p><strong>Massanutten Regional Library</strong>, Harrisonburg, VA | December 2023 - April 2024</p>
+            <ul><li>Arranging, Retrieving, Organizing Books</li></ul>
+        </div>
     </div>
 
-    <div>
-        <h3>Skills</h3>
-    </div>
-
-    <div>
-        <h3>Work Experience</h3>
-    </div>
-
-    <div>
-        <h3>Volunteer Experience</h3>
-    </div>
+    <footer class="text-center">
+        <p>© 2024 Giovani Nunez-Lopez. All rights reserved.</p>
+    </footer>
 
  </body>
  </html>
